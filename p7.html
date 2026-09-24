@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projeto 7, Cadastro de Usuário</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Cadastro de Usuário</h1>
+
+            <nav>
+                <a href="#cadastro">Cadastrar</a>
+            </nav>
+        </header>
+
+        <section id="cadastro">
+            <h2>Crie sua conta: </h2>
+
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+
+                <br><br>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha">
+
+                <br><br>
+
+            <label for="genero">Gênero:</label>
+            <select id="genero" name="genero">
+                <option value="">Selecione</option>
+                <option value="feminino">Feminino</option>
+                <option value="masculino">Masculino</option>
+                <option value="nao-binario">Não-binário</option>
+                <option value="outro">Outro</option>
+                <option value="prefiro-nao-informar">Prefiro não informar</option>
+            </select>
+
+            <br><br>
+
+            <label for="interesses">Interesses:</label>
+            <select id="interesses" name="interesses">
+                <option value="">Selecione um interesse</option>
+                <option value="musica">Música</option>
+                <option value="filmes">Filmes e séries</option>
+                <option value="esportes">Esportes</option>
+                <option value="viagens">Viagens</option>
+                <option value="jogos">Jogos</option>
+                <option value="tecnologia">Tecnologia</option>
+            </select>
+
+            <br><br>
+
+            <label for="biografia">Breve biografia:</label>
+            <br>
+            <textarea id="biografia" name="biografia" rows="6" cols="40"
+                placeholder="Fale um pouco sobre você..."></textarea>
+
+            
+            <br><br>
+
+            <input type="submit" value="Cadastrar">
+            
+            </form>
+        </section>
+    </body>
+</html>
